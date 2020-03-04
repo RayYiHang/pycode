@@ -1,0 +1,6 @@
+member = ['小甲鱼', 88, '黑夜', 90, '迷途', 85, '适静', 90, '秋舞斜阳', 88]
+for i in member:
+    if isinstance(i, str):
+        print(i, end=" ")
+    else:
+        print(i)
